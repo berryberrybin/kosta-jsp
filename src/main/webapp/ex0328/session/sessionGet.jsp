@@ -13,5 +13,11 @@
     나이 : <%=session.getAttribute("age")%><br>
     취미 : <%=session.getAttribute("hobbys")%><br>
 </h3>
+
+<hr>
+<h1>application 확인하자</h1>
+    메시지 : <%=application.getAttribute("message")%><p>
+    주소 : <%=application.getAttribute("address")%><p>
+
 </body>
 </html>
